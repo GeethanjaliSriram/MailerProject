@@ -30,7 +30,7 @@ class EmailClass
 //Method to simultaneously run tasks
  public void executeWorkers() throws InterruptedException 
  {
-	int numEmailWorkers = 5000; //Number of emailWorkers
+	int numEmailWorkers = 500; //Number of emailWorkers
 	allDone = new Semaphore(0); //Declaring Semaphore
  
 	List<EmailWorker> emailWorkers = new ArrayList<EmailWorker>();
